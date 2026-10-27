@@ -1,0 +1,32 @@
+{
+  "name": "todos-tui",
+  "version": "1.0.0",
+  "description": "A terminal (Ink) version of the React Todo front-end",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "tsx src/cli.jsx",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "ink": "8.0.0",
+    "ink-text-input": "6.0.0",
+    "react": "19.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "8.0.9",
+    "@babel/preset-react": "8.0.1",
+    "@eslint/js": "9.39.5",
+    "babel-jest": "30.5.2",
+    "eslint": "9.39.5",
+    "eslint-plugin-react": "7.37.5",
+    "globals": "17.13.0",
+    "ink-testing-library": "4.0.0",
+    "jest": "30.5.2",
+    "tsx": "4.23.15"
+  }
+}

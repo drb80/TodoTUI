@@ -2,13 +2,10 @@
 
 > **To run this finished example:** `npm install`, then `npm start` (in this
 > folder).
->
-> **New to Ink?** Start with [INK_INTRO.md](INK_INTRO.md), a step-by-step
-> introduction for people who already know React.
 
-Ink is React rendered to the
-terminal instead of the DOM, so the components, `useState`, and `useEffect`
-work the same way; only the elements and the input handling change.
+Ink is React rendered to the terminal instead of the DOM, so the
+components, `useState`, and `useEffect` work the same way; only the
+elements and the input handling change.
 
 | Web (`public/app.js`)        | Terminal (`src/`)                          |
 |------------------------------|--------------------------------------------|
